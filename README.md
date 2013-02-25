@@ -15,7 +15,7 @@ Clone this repo
 Create app:
 
     $ cd OpenDataStack-heroku
-    $ heroku create opendatastack -s cedar
+    $ heroku create -s cedar
     $ git push heroku master
     $ heroku ps:scale web=1
 
