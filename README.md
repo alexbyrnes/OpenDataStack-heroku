@@ -7,7 +7,9 @@ Clone this repo
 
     $ git clone https://github.com/alexbyrnes/OpenDataStack-heroku.git
   
-[Install and log in to heroku](https://devcenter.heroku.com/articles/quickstart)
+[Install and log in to heroku](https://devcenter.heroku.com/articles/quickstart):
+
+    $ wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
 Create app:
 
