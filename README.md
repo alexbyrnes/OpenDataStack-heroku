@@ -10,6 +10,7 @@ Clone this repo
 [Install and log in to heroku](https://devcenter.heroku.com/articles/quickstart):
 
     $ wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+    $ heroku login
 
 Create app:
 
