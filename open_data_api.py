@@ -105,4 +105,4 @@ def not_found(error=None):
 
 
 if __name__ == '__main__':
-    app.run(config.SERVER_NAME, config.SERVER_PORT)
+    app.run(host=config.SERVER_NAME, config.SERVER_PORT)
