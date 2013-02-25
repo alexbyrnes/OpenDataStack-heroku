@@ -17,13 +17,12 @@ Create app:
     $ cd OpenDataStack-heroku
     $ heroku create -s cedar
     $ git push heroku master
-    $ heroku ps:scale web=1
 
 Add a free dev instance of Postgres:
 
     $ heroku addons:add heroku-postgresql:dev
 
-(note color of your database 'HEROKU_POSTGRESQL_<COLOR>_URL')
+(note color of your database 'HEROKU_POSTGRESQL_COLOR_URL')
 
 Get the connection string for your database:
 
