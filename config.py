@@ -2,7 +2,7 @@ import os
 import urlparse
 
 urlparse.uses_netloc.append('postgres')
-url = urlparse.urlparse(os.environ.get('HEROKU_POSTGRESQL_PURPLE_URL'), 'postgres://nodatabasefound')
+url = urlparse.urlparse(os.environ.get('HEROKU_POSTGRESQL_PURPLE_URL', 'postgres://nodatabasefound'))
 
 
 DEBUG = True 
