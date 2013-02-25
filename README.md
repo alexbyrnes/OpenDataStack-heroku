@@ -17,7 +17,6 @@ Create app:
     $ cd OpenDataStack-heroku
     $ heroku create -s cedar
     $ git push heroku master
-    $ heroku ps:scale web=1
 
 Add a free dev instance of Postgres:
 
